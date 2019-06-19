@@ -1,0 +1,11 @@
+package cz.cuni.mff;
+
+class MyClass extends Object implements Serializable {
+
+    private int myAttr1 = 10;
+
+    public void myMethod(String param1) {
+        System.out.println(param1);
+    }
+
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="MyClass" package="cz.cuni.mff" superclass="Object" interfaces="Serializable">
+    <attribute name="myAttr1" type="int" value="10" access="private" />
+    <method name="myMethod" returnType="void" access="public">
+        <parameter type="String" name="param1" />
+        <content>
+            System.out.println(param1);
+        </content>
+    </method>
+</class>
